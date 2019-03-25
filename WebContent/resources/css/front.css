@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+*, *:before, *:after {
+	box-sizing:border-box;
+}
+
+html, body {
+	padding:0;
+	margin:0;
+	height: 100%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin:0;
+}
+
+.container {
+	max-width: 750px;
+	margin-right:auto;
+	margin-left:auto;
+	align-items:center;
+	margin-top:40px;
+	border-color: #2a343d;
+}
+
+.surveyHead { background: #2a343d none repeat scroll 0 0 !important; border-color: #2a343d !important; color:#FFF !important; position: relative; }
+.surveyHead p { margin: 0; padding-bottom: 10px; font-size: 13px; line-height: 1.69; }
+.surveyHead .surveyTitle { margin: 0; padding-top: 10px; padding-bottom: 10px; font-size: 36px; line-height: 1.2; font-weight: 400; }
+.surveyHead .surveyDescription { margin: 0; padding-bottom: 10px; font-size: 14px; font-weight: 400; }
+.surveyHead .surveyUser { margin: 0; padding-right: 10px; font-size: 12px; line-height: 1; font-weight: 400; text-align: right;  font-style: italic; }
+
+.surveyFooter { padding: 15px; }
+
+.questionTitle { padding-bottom: 6px; font-size: 22px; line-height: 1.4; font-weight: bold; color:#353434; }
+.questionDescription { padding-bottom: 16px; padding-left: 6px; font-size: 12px; color:#353434; }
+.viewFile { font-size: 11px; font-style: italic; }
+
+.btnPrimary {
+    background: #96c759 none repeat scroll 0 0;
+    border-color: #87ba47;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    height: 48px;
+    line-height: 48px;
+    margin: 0;
+    padding: 0 15px;
+    text-transform: uppercase;
+}
+
+.panel-heading {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.answerFrm label.error {
+	display: none;
+	color: red;
+}
+.inputLoginsErr{
+	color: red;
+}
